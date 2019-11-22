@@ -1,0 +1,105 @@
+.grid{
+	width:100%;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: default default default;
+	display: grid;
+	grid-gap: 3px;
+}
+
+
+
+img {
+	width: 400px;
+}
+
+.item1{
+	border: black solid 5px;
+	font-size: 25px;
+	grid-column-start:1;
+	grid-column-end:3;
+}
+
+.item2{
+	border: black solid 5px;
+}
+
+.item3{
+	border: black solid 5px;
+}
+
+.item4{
+	border: black solid 5px;
+	grid-column-start: 1;
+	grid-column-end:3;
+}
+
+#index {
+	background: #FF4D00;
+}
+
+p {
+	font-family: Marker Felt, fantasy;
+	font-size: 30px ;
+}
+
+#head-thing {
+	font-size: 50px ;
+}
+
+table{
+	width: 100%;
+}
+th, td {
+	border: 5px solid black;
+	width: 49%;
+	text-align:center;
+	height: 400px;
+}
+
+table {
+	width: 100%;
+}
+th, td {
+	border: 5px solid black;
+	width: 49%;
+	text-align:center;
+	height: 400px;
+}
+
+table {
+	width: 100%;
+}
+th, td {
+	border: 5px solid black;
+	width: 49%;
+	text-align:center;
+	height: 400px;
+}
+button {
+	font-size: 20px;
+	background-color: orange;
+	border: 3px dotted black;
+	transition: 0.5s;
+}
+button:hover {
+	font-size: 25px;
+	background-color: red;
+	border: 3px solid orange;
+}
+
+.social {
+	background: #FF9404;
+}
+
+.enviornmental {
+	background: #00B9FF;
+}
+
+.campaign {
+	background: #AEFF0B;
+}
+
+a {
+	color: black ;
+	font-size: 30px ;
+}
